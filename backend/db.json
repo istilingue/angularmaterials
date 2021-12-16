@@ -1,0 +1,21 @@
+{
+"products": [
+  {
+    "id": 1,
+    "name": "Caneta preta",
+    "price": 1.50
+  },
+  {
+    "id": 2,
+    "name": "Scooter Elétrica",
+    "price": 10900.00
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch",
+    "price": 1500.00
+  }
+
+]
+
+}

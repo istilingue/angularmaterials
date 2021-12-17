@@ -1,0 +1,32 @@
+div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center; 
+   flex-direction: column;
+}
+.tabela{
+    width: 98%;
+    border: 1px solid rgb(233, 233, 233)
+}
+
+.header{
+    font-weight:normal;
+    font-size: 1.2rem;
+}
+
+td{
+ text-align: center;
+ text-justify: auto;
+
+}
+
+.product-id{
+    width:20%;
+}
+.product-name{
+    width:60%;
+}
+.product-price{
+    width: 15%;
+}

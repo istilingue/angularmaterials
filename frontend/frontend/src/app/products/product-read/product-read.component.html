@@ -1,0 +1,18 @@
+<div>
+
+    <table class="tabela">
+        <thead class="header">
+            <td class="head">ID</td>
+            <td class="head">Nome</td>
+            <td class="head">Preço</td>
+        </thead>
+        
+        <tbody *ngFor="let product of products" class="products">
+            <td class="product-id">{{product.id}}</td>
+            <td class="product-name">{{product.name}}</td>
+            <td class="product-price">{{product.price}}</td>
+            <button (click)="deleteObject()"></button>
+        </tbody>
+    </table>
+    
+</div>

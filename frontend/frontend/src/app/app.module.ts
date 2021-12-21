@@ -22,8 +22,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 
+
 import {CurrencyPipe} from '@angular/common';
-import { ProductReadComponent } from './products/product-read/product-read.component'
+import { ProductReadComponent } from './products/product-read/product-read.component';
+import { TesteComponent } from './teste/teste.component'
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import { ProductReadComponent } from './products/product-read/product-read.compo
     MainComponent,
     ProductCrudComponent,
     ProductCreateComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    TesteComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +53,8 @@ import { ProductReadComponent } from './products/product-read/product-read.compo
     MatSnackBarModule,
     MatInputModule,
     MatFormFieldModule,
-    FormsModule
+    FormsModule,
+    
   ],
   providers: [CurrencyPipe],
   bootstrap: [AppComponent]

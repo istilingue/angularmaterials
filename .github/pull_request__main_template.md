@@ -1,16 +1,10 @@
 
-## Feature Context
+## MAIN RELEASE
 
 Tell us what you added to this feature:
 
-- [ ] New Feature
-- [ ] Refactor
-- [ ] Style change
-- [ ] Bugfix
-- [ ] Unit Test
-- [ ] Environment Properties
-- [ ] Documentation
-- [ ] Other: write here what you have developed if the option is not present in this list.
+e.g https://jiraflex.atlassian.net/jira/software/c/projects/SP021/boards/215?selectedIssue=SP021-61
+
 
 ## Feature Description
 
@@ -27,7 +21,6 @@ Add some images to clarify execution, if any change was made add the before and 
 
 ## Link Jira
 
-e.g https://jiraflex.atlassian.net/jira/software/c/projects/SP021/boards/215?selectedIssue=SP021-61
 
 ## Checklist
 
